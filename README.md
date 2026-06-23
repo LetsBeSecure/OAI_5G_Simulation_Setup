@@ -134,7 +134,7 @@ grep -iE "create table|insert into" \
 | Option | Meaning |
 |---|---|
 | `grep -i` | Case-insensitive match |
-| `grep -E` | Extended regex (enables the `|` alternation) |
+| `grep -E` | Extended regex (enables the `\|` alternation) |
 | `head -30` | First 30 lines only |
 
 **Observed:** the DB uses a legacy **`users`** table (plus 4G-era `pdn`,
