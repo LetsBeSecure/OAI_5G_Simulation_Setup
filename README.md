@@ -4,7 +4,6 @@ A full record of bringing up an end-to-end 5G network (gNB + UE + 5G Core) in th
 RF simulator using Docker, with every command and option explained, the actual
 control-plane communication that occurred, and the commands used to observe it.
 
-- **Host:** `ccs-ws010`, Ubuntu 24.04 (noble), x86_64
 - **Repo:** `openairinterface5g` cloned under `~/OAI_Begineers_Experiment/`
 - **Deployment dir:** `ci-scripts/yaml_files/5g_rfsimulator/`
 - **Result:** UE `208990100001100` registered (`5GMM-REGISTERED`), got IP `12.1.1.2`,
